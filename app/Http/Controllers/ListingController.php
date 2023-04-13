@@ -10,7 +10,7 @@ class ListingController extends Controller
     // All Listing
     public function index(){
       return view('listings.index',[
-        'listings' => Listing::all()
+        'listings' => Listing::latest()->get()
       ]);
     }
     // Single Listing
