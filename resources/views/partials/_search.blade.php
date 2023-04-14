@@ -14,7 +14,7 @@
       <div class="absolute top-2 right-2">
           <button
               type="submit"
-              class="h-10 w-20 text-white rounded-lg bg-green-500 hover:bg-green-600"
+              class="h-10 w-20 text-white rounded-lg bg-cyan-300 hover:bg-cyan-600"
           >
               Search
           </button>
